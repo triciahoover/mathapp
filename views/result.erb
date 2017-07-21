@@ -4,8 +4,9 @@
 Please 1 number, an action and another number
 
 <form method="post" action="results" id="number_input">
-	<input type= "number" name="num1_provided" required>
-	<input type= "text" name="action_provided" required>
-	<input type= "number" name="num2_provided" required>
-	<button = "submit"> Try It! </button>
+	<input type= "number" name="num1_provided" id="num1" required>
+	<input type= "text" name="action_provided" id="action" required>
+	<input type= "number" name="num2_provided" id="num2" required>
+	<button = "submit"> <onclick="mathAlert('num1', 'action', 'num2')"> Try It! </button>
 </form>
+
