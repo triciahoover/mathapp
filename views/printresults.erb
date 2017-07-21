@@ -1,1 +1,14 @@
+<script>
+var numberOne = <%= num1 %>
+var numberTwo = <%= num2 %>
+var operator = <%= action %>.to_string
+
+// alert("Hello! This is the math problem you are trying to do: #{num1} #{action} #{num2}")
+
+alert('Hello! This is the math problem you are trying to do: ' + numberOne + ' ' + operator + ' ' + numberTwo );
+
+</script>
+
+<div>
 <%= num1 %> <%= action %> <%= num2 %> 
+</div>

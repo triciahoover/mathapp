@@ -1,2 +1,3 @@
-function result() {     
-	puts "#{num1_provided} #[action_provided] #{num2_provided} "= num1_provided action_provided num2_provided" }
+// function alert() {     
+// 	alert("Hello! This is the math problem you are trying to do: #{num1} #{action} #{num2}");
+// }
