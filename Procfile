@@ -1,1 +1,1 @@
-web:bundle exec ruby mathapp.rb
+web: bundle exec ruby mathapp.rb
